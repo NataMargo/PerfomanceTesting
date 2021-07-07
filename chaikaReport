@@ -1,0 +1,6 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1625657674171,1290,openHomePage,200,OK,Thread Group 1-1,text,true,,24580,122,1,1,https://demo.nopcommerce.com/,1264,0,25
+1625657675462,1417,searchProduct,200,OK,Thread Group 1-1,text,true,,7186,419,1,1,https://demo.nopcommerce.com/search?q=book,1417,0,0
+1625657676880,1475,chooseProduct,200,OK,Thread Group 1-1,text,true,,11752,462,1,1,https://demo.nopcommerce.com/samsung-series-9-np900x4c-premium-ultrabook,1475,0,0
+1625657678356,1118,addProductToCart,200,OK,Thread Group 1-1,text,true,,1999,791,1,1,https://demo.nopcommerce.com/addproducttocart/details/6/1,1118,0,0
+1625657679474,1122,toCart,200,OK,Thread Group 1-1,text,true,,4803,453,1,1,https://demo.nopcommerce.com/cart,1122,0,0

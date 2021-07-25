@@ -1,0 +1,13 @@
+ASSERTION	AAECAAIEAAAAAAAAwFdA
+ASSERTION	AAEDAAECAwAAAAAAAIizQA==
+RUN	demo.FirstProject1	firstproject1	1627239253877	0	3.6.1
+USER	FirstProject1	START	1627239255057
+REQUEST		Open Home Page	1627239255090	1627239255929	OK	 
+REQUEST		css?family=Lobster|Lobster+Two	1627239256039	1627239256144	OK	 
+ERROR	Press Start Button: Failed to build request: No attribute named 'stepId' is defined 	1627239257976
+ERROR	Enter your age: Failed to build request: No attribute named 'stepId' is defined 	1627239259119
+ERROR	Enter Max Order Value: Failed to build request: No attribute named 'stepId' is defined 	1627239260979
+REQUEST		Click Next Button	1627239262747	1627239262949	OK	 
+REQUEST		Get Code Page	1627239262956	1627239263745	OK	 
+REQUEST		Enter Code	1627239265560	1627239265765	OK	 
+USER	FirstProject1	END	1627239267202
